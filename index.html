@@ -1,0 +1,19 @@
+---
+layout: default
+title: IWAXY.COM
+---
+
+<div id="home">
+  <h1>最新博文</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h1>我的文章在别处</h1>
+  <ul class="posts">
+    <li><span>10 Apr 2013</span> &raquo; <a href="http://bbs.pediy.com/showthread.php?t=168003">C语言学习抄书笔记（连载中）</a></li>
+   </ul>
+
+</div>
