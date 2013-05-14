@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: 我的开篇
+title: 我的开场白
 ---
 
 {{ page.title }}
